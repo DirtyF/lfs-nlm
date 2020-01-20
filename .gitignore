@@ -3,3 +3,6 @@
 
 # Local Netlify folder
 .netlify
+
+# npm
+node_modules
