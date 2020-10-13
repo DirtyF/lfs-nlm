@@ -8,7 +8,7 @@ sections:
   path: index.md
   label: Home
 upload_dir: img
-public_path: "/img"
+public_path: https://github-lfs-nlm.netlify.app/img
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
