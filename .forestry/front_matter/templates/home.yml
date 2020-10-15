@@ -9,3 +9,5 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+pages:
+- index.md
