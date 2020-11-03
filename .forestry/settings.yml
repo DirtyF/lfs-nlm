@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: netlify.toml
+  label: netlify.toml
+  match: "**/*"
+- type: document
   path: index.md
   label: Home
 upload_dir: img
