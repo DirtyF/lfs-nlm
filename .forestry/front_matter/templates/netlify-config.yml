@@ -1,0 +1,27 @@
+---
+label: Netlify config
+hide_body: true
+fields:
+- type: field_group
+  name: build
+  label: build
+  fields:
+  - type: text
+    name: publish
+    label: publish
+  - type: text
+    name: command
+    label: command
+- type: field_group_list
+  name: redirects
+  label: redirects
+  fields:
+  - type: text
+    name: from
+    label: from
+  - type: text
+    name: to
+    label: to
+  - type: text
+    name: status
+    label: status
