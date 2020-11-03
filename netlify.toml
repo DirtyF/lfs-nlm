@@ -1,0 +1,8 @@
+[build]
+  publish = "_site"
+  command = "DEBUG=* eleventy"
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  status = 301
