@@ -1,8 +1,7 @@
 [build]
-  publish = "_site"
-  command = "DEBUG=* eleventy"
-
+command = "DEBUG=* eleventy"
+publish = "_site"
 [[redirects]]
-  from = "/home"
-  to = "/"
-  status = 301
+from = "/home"
+status = "302"
+to = "/"

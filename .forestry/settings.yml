@@ -7,7 +7,6 @@ sections:
 - type: document
   path: netlify.toml
   label: netlify.toml
-  match: "**/*"
 - type: document
   path: index.md
   label: Home
