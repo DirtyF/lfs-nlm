@@ -3,5 +3,5 @@ command = "DEBUG=* eleventy"
 publish = "_site"
 [[redirects]]
 from = "/home"
-status = "302"
+status = 301
 to = "/"
